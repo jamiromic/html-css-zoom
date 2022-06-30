@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer{
+    border: 1px solid red;
+    max-height: 100vh;
+}
+
+.maincontainer{
+    border: 1px solid red;
+    flex-grow: 1;
+    background-color: black;
+
+}
+
+.row{
+    border: 1px solid red;
+    display: flex;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    position: relative;
+}
+
+.imgcard{
+
+}
+
+.textimg{
+    display: flex;
+    position: absolute;
+    bottom: 6px;
+    color: white;
+    padding: 5px;
+    background-color: rgba(146, 133, 133, 0.5);
+}
