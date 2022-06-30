@@ -5,9 +5,9 @@
 }
 
 .content{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
+    width: 1920px;
     
 }
 
@@ -17,22 +17,26 @@
 }
 
 .maincontainer{
+    display: flex;
+    flex-direction: column;
     border: 1px solid red;
-    flex-grow: 1;
     background-color: black;
+    flex-grow: 1;
+    padding: 80px 80px 20px 80px;
+    position: relative;
+    gap: 10px;
 
 }
 
 .row{
-    border: 1px solid red;
     display: flex;
+    gap: 5px;
 }
 
 
 .col{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     position: relative;
 }
 
@@ -48,3 +52,60 @@
     padding: 5px;
     background-color: rgba(146, 133, 133, 0.5);
 }
+
+.screenadjust{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.iconscreen{
+    color: white;
+
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.footerleft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footercenter{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footerright{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    color: red;
+    background-color: rgb(76, 75, 75);
+}
+
+.object{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#icon{
+    font-size: 30px;
+}
+
+
+
+
